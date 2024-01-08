@@ -16,30 +16,9 @@ import Com.Elif.utility.CreateRepoImpl;
 
 import java.util.Scanner;
 
-/**
- * Tablolar;
- * tbldoktor;
- * id, ad, adres, telefon bransid,unvan
- *
- *
- * tblrandevu;
- * id, doktorid, hastaid, tarih, zaman, durum
- *
- * tblbrans;
- * id,ad
- *
- * tblhasta;
- * id,ad telefon,adres, yaş, cinsiyet
- *
- */
 public class Runner {
     public static void main(String[] args) {
     // new CreateRepoImpl().createDemoData(); //ilk taslak verileri ekledim.
-    // new HastaService().hastaAdiBransAdediGetir("Elif Çolak"); //çalıştı.Not:native sorgusunda db'deki kolon adlarını yaz.
-
-    //    new HastaService().tarihlerArasindakiRandevulariGetir("Elif Çolak");
-
-
         new Runner().hastaneApp();
     }
 
